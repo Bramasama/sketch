@@ -1,0 +1,193 @@
+.board {
+  width: 450px;
+  height: 450px;
+  display: grid;
+  justify-self: center;
+  margin: 12;
+
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 5), 0 0 0 2px rgb(67, 18, 18), 0.3em 0.3em 1em rgba(0, 0, 0, 5); 
+  
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+  width: 60vw;
+  height: 60vw;
+  max-width: 600px;
+  max-height: 600px; 
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+  justify-content: center;
+}
+
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15385;
+  margin: 6px 20px;
+  color: white;
+ 
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.mode{
+  display: flex;
+  color:  rgba(255, 255, 255, .7);
+  justify-content: start;
+  font-size: 16px;
+  margin: 2px 2px;
+  
+}
+p {
+  font-size: 156px;
+  font-weight: lighter;
+  color: red;
+}
+body {
+  background-color: #2c5777;;
+}
+
+
+
+/* <!-- HTML !-->
+<button class="button-8" role="button">Button 8</button> */
+
+/* CSS */
+.buttons {
+  background-color: #002037;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height:0.5;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+ 
+}
+
+
+div.buttons{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 5), 0 0 0 2px rgb(176, 174, 174), 0.3em 0.3em 1em rgba(255, 255, 255, 0.5); 
+
+
+}
+
+input {
+ 
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #002037;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 0.5;
+  
+  margin: 0;
+  outline: none;
+  padding: 1px 1px;
+  width: 32px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+ 
+}
+
+.set {
+  display: flex;
+  justify-content: start;
+  background-color: #002037;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 0.5;
+
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  
+}
+
+.buttons:hover,
+.buttons:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.buttons:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.buttons:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+/* .error {
+  display: flex;
+  justify-self: end;
+} */
